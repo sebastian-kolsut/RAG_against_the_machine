@@ -1,0 +1,9 @@
+https://dspy.ai/
+https://huggingface.co/docs/transformers/index
+https://stackoverflow.blog/2024/12/27/breaking-up-is-hard-to-do-chunking-in-rag-applications/
+https://machinelearningmastery.com/understanding-rag-part-vii-vector-databases-indexing-strategies/
+https://www.ibm.com/think/tutorials/build-multimodal-rag-langchain-with-docling-granite#824202000
+https://google.github.io/python-fire/guide/
+https://www.datacamp.com/tutorial/tqdm-pytho
+https://www.pinecone.io/learn/retrieval-augmented-generation/
+https://www.pinecone.io/learn/chunking-strategies/
