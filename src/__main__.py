@@ -1,11 +1,7 @@
 import fire
 from .chunkers import chunk_code, chunk_markdown
-from .chunkers.test_vdb import TestChunker
-from uuid import uuid4
-import time
-import bm25s
 import chromadb
-from .answering import get_best_matches
+from .search import get_best_matches
 
 
 def chunk():
@@ -13,8 +9,8 @@ def chunk():
     chunk_markdown()
 
 
-def answer(query: str) -> None:
-    get_best_matches(query)
+def search(query: str, k: int) -> None:
+    print(get_best_matches(query, k))
 
 
 def retrive() -> None:
@@ -28,6 +24,7 @@ def retrive() -> None:
 
 def test():
     pass
+
 
 if __name__ == "__main__":
     fire.Fire()

@@ -28,7 +28,6 @@ def chunk_markdown() -> None:
         embeddings=vectors,
         metadatas=_extract_metadata(chunks_dict)
         )
-    print(ids)
 
 
 def _extract_metadata(
